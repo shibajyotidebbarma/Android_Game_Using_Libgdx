@@ -42,7 +42,7 @@ public class FlappyBird extends ApplicationAdapter {
 	}
 	
 	@Override
-	public void dispose () {
+	public void dispose () { // this method is called when the game quits
 		batch.dispose();
 
 	}
